@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando css</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1{
+            background-color: aqua;
+            height: 300px;
+            width: 300px;
+
+
+            border-width: 10px;/*largura da borda*/
+            border-style: solid;/*tipo da borda, mais usadas: solid-dashed-dotted*/
+            border-color: black;
+            
+            /* forma simplicada 
+            border: 10px solid  black;
+            tambem serve para outline
+            */
+
+            /*Configurando a area entre a borda e o conteudo*/
+            padding-top: 10px; /*Area superior*/
+            padding-right: 10px; /*Area direita*/
+            padding-bottom: 10px; /*Area Inferior*/
+            padding-left: 10px; /*Area esquerda*/
+
+            /*Forma simplificada
+            padding:10px,10px,10px,10px
+            tambem serve para margin
+            */
+
+            margin: auto;
+        }
+
+        /* para box margin: auto |  para texto text-align: center*/ 
+        p{
+            text-align: center;
+        }
+
+        a{
+            background-color: antiquewhite;
+            border-width: 10px;
+            border-style: solid;
+            border-color: black;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Testando box level</h1>
+    <p>Este é um <a href="#">exemplo de box-inline</a></p>
+</body>
+</html>

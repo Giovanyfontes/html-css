@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando agrupamento de tags</title>
+    <style>
+        
+        
+        body{
+            background-color: white;
+            font-family: 'Trebuchet MS', sans-serif;;
+        }
+
+        /*Cabeça do site*/
+        header{
+        
+        }
+        header > h1 {
+            color: white;
+            background-color: #185f77 ;
+            padding: 37px;
+            text-indent: 20px;
+            font-family: 'Times New Roman', serif;
+            margin: 2px
+        }
+        header > nav {
+            background-color: rgb(255, 255, 255);
+            margin: 2px;
+        }
+        nav > a {
+            background-color: #228eb3;
+            color: rgb(160, 160, 160);
+            box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.582);
+            margin: -2px;
+            padding-left: 45px;
+            padding-right: 45px;
+            text-decoration: none;
+            box-shadow: 1px;
+        }
+
+        /*Conteudo do site*/
+
+        main{
+            background-color: rgb(236, 236, 236);
+            border-radius: 20px 00px;
+            box-shadow: 1px 1px 9px #0000003d;
+        }
+
+        article > h2{
+            text-indent: 20px;
+        }
+
+
+        article > p {
+            text-align: justify;
+            text-indent: 15px;
+        }
+
+
+        footer{
+            background-color: #124353;
+            font-style: italic;
+            color: white;
+            padding: 3px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Grouping tags</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Teste de assunto</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil laboriosam accusantium cupiditate. Omnis nobis aperiam facilis alias inventore iure assumenda similique deleniti odit culpa! Saepe veniam suscipit blanditiis aspernatur voluptate.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus ex recusandae perspiciatis quam ipsa maiores, a itaque omnis repellat laudantium adipisci. Qui laudantium officia perferendis, fugiat ratione vel adipisci ipsam.</p>
+                <aside>
+                    <p>Artigo escrito por um cara ai</p>
+                </aside>
+            </article>
+            <article>
+                <h2>Teste de assunto </h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid doloribus omnis optio! Asperiores voluptate earum sequi hic fugit accusantium doloremque, sit minus deserunt error nulla voluptatibus laudantium suscipit aliquam aut Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab impedit itaque repudiandae accusantium omnis nihil, adipisci dolorem voluptatem, quam, eligendi quia! Assumenda animi ducimus est rerum porro excepturi quo magnam.</p>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Giovany Fontes</p>
+    </footer>
+</body>
+</html>
